@@ -5,7 +5,7 @@ const utils = require('./utils');
 
 console.log(' mp3DirMetadata says hello! ');
 
-const musicFolder = process.argv[2]  || ( os.type() === 'Darwin' ) ? 
+const musicFolder = process.argv[2]  || ( os.type() === 'Darwin' ) ?
                                           '/Users/luis/Downloads' :
                                           '/home/luis/Música/DANI/Zanthrax- Lost heritage';
 
